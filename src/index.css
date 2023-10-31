@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+/* Reset all font settings */
+html {
+  font-size: 100%;
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Set a global font size and weight */
+body {
   font-size: 18px;
+  font-weight: 500;
 }
